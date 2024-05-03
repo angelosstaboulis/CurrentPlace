@@ -7,7 +7,6 @@
 
 import Foundation
 import CoreLocation
-@MainActor
 class PlaceViewModel:ObservableObject{
     let helper = Helper()
     func fetchCoordinates(manager:CLLocationManager) async  ->CLLocationCoordinate2D {
